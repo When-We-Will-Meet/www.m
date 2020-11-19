@@ -1,0 +1,17 @@
+#main_title {position:relative; float:left; margin-top:2%; margin-left:2%; width:12%;}
+#plus {position: relative; display:inline; margin-left:80%; width:5%;margin-bottom: 2%; margin-top: -5%;}
+table{position:relative;
+    border: 1px solid black;
+    width: 700px;height:600px;
+    margin-top:12%;margin-left: 25%;}
+.tab{color:#858072;;
+    padding: 4px;
+    position:relative;
+    }
+#name_tab {font-size:1.5vw;}
+.innerframe {position:relative; border:#f3c4c4 solid 5px;float:right;width:96%; min-height:700px; margin-right:1.6%;
+    margin-bottom:0.8%;}
+.title {position: relative; float:left;  margin-left:25%; margin-top: -3%; font-size:2vw;  }
+.innerframe1 {position: relative; float:left; margin-top:3%; margin-left:55%;margin-bottom: 5%;}
+th,td{border: 1px solid black; text-align:center;}
+
