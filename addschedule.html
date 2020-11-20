@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고정일정추가(+)</title>
+    <link rel="stylesheet" href="addschedule.css">
+</head>
+<body>
+    <div class="add">
+        <h2>일정추가</h2>
+    </div>
+    <div class="topic">
+        <label id="scheduletitle">일정제목</label>
+        <input type="text" value="">
+    </div>
+    <div class="date">
+        <input type="checkbox" value="1">월
+        <input type="checkbox" value="2">화
+        <input type="checkbox" value="3">수
+        <input type="checkbox" value="4">목
+        <input type="checkbox" value="5">금
+        <input type="checkbox" value="6">토
+        <input type="checkbox" value="7">일
+    </div>
+    <div class="time">
+        오전<input type="checkbox" value="" id="am">
+        <input class="underline" type="text" value="" size="2">시
+        <input class="underline" type="text" value="" size="2">분
+        <br>
+        오후<input type="checkbox" value="">
+        <span id="pm">
+            ~ <input class="underline" type="text" value="" size="2">시
+        <input class="underline" type="text" value=""size="2">분
+        </span>
+        
+    </div>
+    <br>
+    <div class="memo">
+        메모 <input class="underline" type="text" value="">
+    </div>
+    <span id="finish"><button>완료</button></span>
+</body>
+</html>
