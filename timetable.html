@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="timetable.css">
 </head>
 <body>
+    <img src="main_title.png" id="main_title"/>  
     <div class="innerframe">
-        <img src="main_title.png" id="main_title"/>
-        <div class="innerframe1">
-            <label id="name_tab" class="tab">회원1 님</label>
-            <label id="schedule_tab" class="tab">시간표추가</label>
-            <label id="friend_tab" class="tab">친구목록</label>
-            <label id="schedule_add_tab" class="tab">시간찾기</label>
-        </div>
+        <label id="name_tab" class="tab">회원1 님</label>
+        <label id="schedule_tab" class="tab">시간표추가</label>
+        <label id="friend_tab" class="tab">친구목록</label>
+        <label id="schedule_add_tab" class="tab">시간찾기</label>
+    </div>
+    <div class="innerframe1">
         <table>
             <thead>
                 <tr>
@@ -66,9 +66,8 @@
                 </tr>
             </tbody>
         </table>
-        <div class="add">
-            <input type="button" value="일정추가">
-        </div>
+        <span id="add"><button>일정추가</button></span>
     </div>
+    
 </body>
 </html>
