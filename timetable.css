@@ -8,10 +8,12 @@ table{position:relative;
     position:relative;
     }
 #name_tab {font-size:1.5vw;}
-.innerframe {position:relative; border:#f3c4c4 solid 5px;float:right;width:96%; min-height:700px; margin-right:1.6%;
-    margin-bottom:0.8%;}
+.innerframe1 {position:relative; float:right; background-color:rgb(238, 235, 235); width:96%; min-height:620px; margin-right:1.6%;
+    margin-bottom:0.8%; border-radius:0.5em;}
 .frame {position: relative; float:left; margin-top:7%; margin-left:10%;
     font-size:2vw; background-color:lightgreen; color:white;}
-.innerframe1 {position: relative; float:left; margin-top:3%; margin-left:55%;margin-bottom: 5%;}
+.innerframe {position: relative; float:left; margin-top:3%; margin-left:55%;}
 th,td{border: 1px solid black; text-align:center;}
-.add{position:relative; float:right; border: aqua solid 5px;margin-bottom: 5%;margin-right: 5%;}
+button{ color : white; background-color: #4d69d9; border: 0px; font-size: 25px; width: 150px; height: 60px;}
+button:hover{background-color: white; color:#4d69d9;}
+#add{float: right; margin-right: 10%; margin-top: -5%; margin-bottom: 3%;}
