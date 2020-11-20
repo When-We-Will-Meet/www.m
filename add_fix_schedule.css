@@ -1,0 +1,8 @@
+#scheduletitle{float: left; margin-left: 2%;}
+#finish{float: right; margin-right:75%;}
+.date{position: relative;margin-top: 1%;margin-left: 3%;}
+.time{position: relative;margin-top: 1%; margin-left: 2%;}
+.underline {border-top-width: 0; border-left-width: 0; border-right-width: 0;}
+#pm{position: relative; margin-left: 2%;}
+.memo{position: relative;margin-top: 0.3%; margin-left:2%;}
+.repeat{position: relative;margin-top: 1%;margin-left: 3%;}
