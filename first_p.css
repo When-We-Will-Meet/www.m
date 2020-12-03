@@ -4,11 +4,11 @@ button:hover{background-color: white; color:#4d69d9;}
 #log_in{float: right; margin-top: 0.5%; margin-right: 2%;}
 .innerframe{background-color: rgb(238, 235, 235); border-radius:0.5em; margin-left: 2%; margin-right: 2%;}
 table{margin-left: 50px; margin-right: 50px; margin-top: 70px; margin-bottom: 40px;}
-td{text-align: center; font-weight: 700; padding-left: 190px; padding-top: 50px; color:gray; font-size: 20px;}
+td{text-align: center; font-weight: 700; padding-left: 170px; padding-top: 50px; color:gray; font-size: 20px;}
 td:hover{text-decoration: underline;}
 td > span{color: rgb(77, 75, 75);}
 #friend{width: 10; height: 10;}
 #main{font-weight: 700; font-size: 34px; text-align: center; color:#4d69d9; margin-left: 490px; text-decoration: underline;}
-#sign_up{margin-left: 770px; margin-top: 40px; margin-bottom: 40px;}
+#sign_up{margin-left: 770px; margin-top: 40px; margin-bottom: 40px; float:center;}
 p{font-weight: 700; font-size: 20px; color: gray; text-align: center;}
 p > span{font-weight: 700; font-size: 32px; color: #4d69d9;}
