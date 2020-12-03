@@ -4,13 +4,10 @@
 .tab {color:#858072; padding:4px; position:relative; }
 #name_tab {font-size:1.5vw;}
 
-.innerframe {position:relative; float:right; background-color:rgb(238, 235, 235); width:96%; min-height:620px; margin-right:1.6%;
-             margin-bottom:0.8%; border-radius:0.5em;}
+.innerframe {position:relative; float:right; background-color:rgb(238, 235, 235); width:96%; min-height:620px; margin-right:1.6%; margin-bottom:0.8%; border-radius:0.5em;}
 .innerframe1 {position: relative; float:left; margin-top:3%; margin-left:55%;}
-.frame {position: relative; float:left; margin-top:7%; margin-left:10%;
-        font-size:2vw; background-color:lightgreen; color:white;}
-.innerframe2 {position: absolute; margin-top:18%; margin-left:23%; border:#82dfa6 solid 12px;
-              width:50%; min-height:300px;}
+.frame {position: relative; float:left; margin-top:7%; margin-left:10%; font-size:2vw; background-color:lightgreen; color:white;}
+.innerframe2 {position: absolute; margin-top:18%; margin-left:23%; border:#82dfa6 solid 12px; width:50%; min-height:300px;}
 
 .frame{position: relative; float:left;  margin-top:12%; margin-left:23%;}
 .firstline{position: relative; float:left; width:100%; min-height:90px; margin-top:4%; margin-left:4%; word-spacing: 30px;}
