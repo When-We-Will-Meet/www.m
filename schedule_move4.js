@@ -21,9 +21,9 @@ $(document).ready(function(){
         window.location.href="friend.html"
     });
     $('#right').click(function(){
-        document.location.href="schedule2.html";
+        alert("4주차 마지막 화면입니다")
     });
     $('#left').click(function(){
-        alert("1주차 첫 화면입니다");
+        document.location.href="schedule3.html";
     });
 });

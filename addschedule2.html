@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>고정일정추가(+)</title>
-    <link rel="stylesheet" href="add_fix_schedule.css">
+    <title>약속일정추가(+)</title>
+    <link rel="stylesheet" href="addschedule.css">
     <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="./add_fix_schedule.js"></script>
+    <script src="./addschedule2.js"></script>
 </head>
 <body>
     <div class="add">
@@ -17,23 +17,14 @@
         <input type="text" id="title"/>
         <br>
         <label id="scheduletitle">일정제목</label>
-        <input type="text" id='title1'/>
+        <input type="text" id="title1">
     </div>
     
     <br>
     <div class="memo">
         메모 <input class="underline" type="text" value="" id="memo">
-    </div>
-    <div class="repeat">
-        <h3>반복</h3>
-        <input type="radio" name="repeat" value="1">1년
-        <input type="radio" name="repeat" value="2">6달
-        <input type="radio" name="repeat" value="3">1달
-        <input type="radio" name="repeat" value="4">1주
-        <input type="radio" name="repeat" value="5">매일
         <button id="num">확인</button>
     </div>
-    
-    <span><button id="finish">완료</button></span>
+    <span id="finish"><button>완료</button></span>
 </body>
 </html>

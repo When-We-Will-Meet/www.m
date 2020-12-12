@@ -136,3 +136,47 @@ postMethods.get_title1 = function(res, post){
         send200(res,returnStr)
     });
 }
+
+postMethods.add_title2 = function(res, post){
+    var sql="UPDATE wwwm.times2 SET title='"+post.title+"' WHERE number= "+post.title;
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    });
+    var sql="UPDATE wwwm.times2 SET title1='"+post.title1+"' WHERE number= "+post.title;
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+    var sql="UPDATE wwwm.times2 SET memo='"+post.memo+"' WHERE number= "+post.title;
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+    var sql="UPDATE wwwm.times2 SET onemore='"+post.onemore+"' WHERE number= "+post.title;
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr);
+    });
+    
+}
+postMethods.get_title2 = function(res, post){
+    var sql="select title,title1,memo,onemore from wwwm.times2 WHERE ip=1";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
+
+postMethods.merge1 = function(res, post){
+    var sql="select merge from wwwm.times WHERE ip=1";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
