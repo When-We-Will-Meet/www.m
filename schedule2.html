@@ -2,22 +2,24 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>timetable</title>
-    <link rel="stylesheet" href="timetable.css">
+    <title>schedule</title>
+    <link rel="stylesheet" href="schedule.css">
     <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="./timetable.js"></script>
-    <script src="./timetable_move.js"></script>
+    <script src="./schedule.js"></script>
+    <script src="./schedule_move2.js"></script>
 </head>
 <body>
-    <img src="main_title.png" id="main_title"/>  
+    <img src="main_title.png" id="main_title"/>
     <div class="innerframe">
         <label id="name_tab" class="tab">회원1 님</label>
-        <label id="schedule_tab" class="tab">약속추가</label>
+        <label id="schedule_tab" class="tab">시간표추가</label>
         <label id="friend_tab" class="tab">친구목록</label>
         <label id="schedule_add_tab" class="tab">시간찾기</label>
     </div>
     <div class="innerframe1">
+        <label id="week">-2주차 화면</label> 
+        <img src="left.png" id="left" class="arrow">
+        <img src="right.png" id="right" class="arrow">
         <table id="fixtimetable">
             <thead>
                 <tr>
@@ -72,8 +74,10 @@
                 </tr>
             </tbody>
         </table>
-        <span id="add"><button value="추가">일정추가</button></span>
+        <div class="plus">
+            <img src="plus.png" id="plus"/>
+        </div>
     </div>
-    
+    </div>
 </body>
 </html>

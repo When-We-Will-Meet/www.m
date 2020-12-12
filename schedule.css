@@ -1,9 +1,14 @@
 #main_title {position:relative; float:left; margin-top:2%; margin-left:2%; width:12%;}
+#week{position: relative; margin-left: 10%; font-size: 50px;}
+.arrow{position: relative; width: 10%; height: 10%;}
+#right{float: right; margin-top: 10%;}
+#left{float: left; margin-top: 10%;}
 #plus {position: relative; display:inline; margin-left:80%; width:5%;margin-bottom: 2%; margin-top: -5%;}
 table{position:relative;
     border: 1px solid black;
-    width: 700px;height:600px;
-    margin-top:12%;margin-left: 25%;}
+    width: 900px;height:600px;
+    margin-top:5%;margin-left: 20%;
+    table-layout: fixed;}
 .tab{color:#858072;;
     padding: 4px;
     position:relative;
