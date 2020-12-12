@@ -18,3 +18,6 @@ th,td{border: 1px solid black; text-align:center;}
 button{ color : white; background-color: #4d69d9; border: 0px; font-size: 25px; width: 150px; height: 60px;}
 button:hover{background-color: white; color:#4d69d9;}
 #add{float: right; margin-right: 10%; margin-top: -5%; margin-bottom: 3%;}
+.redCell{
+    color:red;
+}

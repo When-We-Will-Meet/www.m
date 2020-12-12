@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>schedule</title>
+    <link rel="stylesheet" href="schedule.css">
+    <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./schedule.js"></script>
+    <script src="./schedule_move3.js"></script>
+</head>
+<body>
+    <img src="main_title.png" id="main_title"/>
+    <div class="innerframe">
+        <label id="name_tab" class="tab">회원1 님</label>
+        <label id="schedule_tab" class="tab">시간표추가</label>
+        <label id="friend_tab" class="tab">친구목록</label>
+        <label id="schedule_add_tab" class="tab">시간찾기</label>
+    </div>
+    <div class="innerframe1">
+        <label id="week">-3주차 화면</label> 
+        <img src="left.png" id="left" class="arrow">
+        <img src="right.png" id="right" class="arrow">
+        <table id="fixtimetable">
+            <thead>
+                <tr>
+                    <th></th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th><th>일</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9</td><td><label id="name1"></label></td><td><label id="name2"></label></td><td><label id="name3"></label></td><td><label id="name4"></label></td><td><label id="name5"></label></td><td><label id="name6"></label></td><td><label id="name7"></label></td>
+                </tr>
+                <tr>
+                    <td>10</td><td><label id="name8"></label></td><td><label id="name9"></label></td><td><label id="name10"></label></td><td><label id="name11"></label></td><td><label id="name12"></label></td><td><label id="name13"></label></td><td><label id="name14"></label></td>
+                </tr>
+                <tr>
+                    <td>11</td><td><label id="name15"></label></td><td><label id="name16"></label></td><td><label id="name17"></label></td><td><label id="name18"></label></td><td><label id="name19"></label></td><td><label id="name20"></label></td><td><label id="name21"></label></td>
+                </tr>
+                <tr>
+                    <td>12</td><td><label id="name22"></label></td><td><label id="name23"></label></td><td><label id="name24"></label></td><td><label id="name25"></label></td><td><label id="name26"></label></td><td><label id="name27"></label></td><td><label id="name28"></label></td>
+                </tr>
+                <tr>
+                    <td>13</td><td><label id="name29"></label></td><td><label id="name30"></label></td><td><label id="name31"></label></td><td><label id="name32"></label></td><td><label id="name33"></label></td><td><label id="name34"></label></td><td><label id="name35"></label></td>
+                </tr>
+                <tr>
+                    <td>14</td><td><label id="name36"></label></td><td><label id="name37"></label></td><td><label id="name38"></label></td><td><label id="name39"></label></td><td><label id="name40"></label></td><td><label id="name41"></label></td><td><label id="name42"></label></td>
+                </tr>
+                <tr>
+                    <td>15</td><td><label id="name43"></label></td><td><label id="name44"></label></td><td><label id="name45"></label></td><td><label id="name46"></label></td><td><label id="name47"></label></td><td><label id="name48"></label></td><td><label id="name49"></label></td>
+                </tr>
+                <tr>
+                    <td>16</td><td><label id="name50"></label></td><td><label id="name51"></label></td><td><label id="name52"></label></td><td><label id="name53"></label></td><td><label id="name54"></label></td><td><label id="name55"></label></td><td><label id="name56"></label></td>
+                </tr>
+                <tr>
+                    <td>17</td><td><label id="name57"></label></td><td><label id="name58"></label></td><td><label id="name59"></label></td><td><label id="name60"></label></td><td><label id="name61"></label></td><td><label id="name62"></label></td><td><label id="name63"></label></td>
+                </tr>
+                <tr>
+                    <td>18</td><td><label id="name64"></label></td><td><label id="name65"></label></td><td><label id="name66"></label></td><td><label id="name67"></label></td><td><label id="name68"></label></td><td><label id="name69"></label></td><td><label id="name70"></label></td>
+                </tr>
+                <tr>
+                    <td>19</td><td><label id="name71"></label></td><td><label id="name72"></label></td><td><label id="name73"></label></td><td><label id="name74"></label></td><td><label id="name75"></label></td><td><label id="name76"></label></td><td><label id="name77"></label></td>
+                </tr>
+                <tr>
+                    <td>20</td><td><label id="name78"></label></td><td><label id="name79"></label></td><td><label id="name80"></label></td><td><label id="name81"></label></td><td><label id="name82"></label></td><td><label id="name83"></label></td><td><label id="name84"></label></td>
+                </tr>
+                <tr>
+                    <td>21</td><td><label id="name85"></label></td><td><label id="name86"></label></td><td><label id="name87"></label></td><td><label id="name88"></label></td><td><label id="name89"></label></td><td><label id="name90"></label></td><td><label id="name91"></label></td>
+                </tr>
+                <tr>
+                    <td>22</td><td><label id="name92"></label></td><td><label id="name93"></label></td><td><label id="name94"></label></td><td><label id="name95"></label></td><td><label id="name96"></label></td><td><label id="name97"></label></td><td><label id="name98"></label></td>
+                </tr>
+                <tr>
+                    <td>23</td><td><label id="name99"></label></td><td><label id="name100"></label></td><td><label id="name101"></label></td><td><label id="name102"></label></td><td><label id="name103"></label></td><td><label id="name104"></label></td><td><label id="name105"></label></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="plus">
+            <img src="plus.png" id="plus"/>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
