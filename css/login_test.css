@@ -1,0 +1,104 @@
+#title{
+    position: relative; float: left; width: 12%; margin-left: 2%;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+button {
+    margin: 0 0 0;
+    width: 100%;
+    height: 48px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4d69d9;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 18px 19px 19px;
+    box-sizing: border-box;
+}
+
+.form-control {
+    border-color: white;
+    width: 100%;
+    border-left: 0;
+    border-top: 0;
+    display: block;
+    position: relative;
+    height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;   
+}
+
+.inner_login {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.inner_login .box_login {
+    margin: 35px 0 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+input {
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    color: #000;
+    border: none;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+}
+
+.inner_login .box_login {
+
+    margin: 35px 0 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.inner_login .inp_text {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 18px 19px 19px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+.inner_login .inp_text+.inp_text {
+    border-top: 1px solid #ddd;
+}
