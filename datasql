@@ -1,0 +1,51 @@
+/*반드시 user.sql을 먼저 실행하여 사용자와 데이터베이스부터 만든 후 실행해주세요*/
+CREATE TABLE times(
+   ip INT AUTO_INCREMENT NOT NULL,
+   number INT DEFAULT 0,
+   title VARCHAR(50),
+   title1 VARCHAR(100),
+   memo VARCHAR(100),
+   onemore INT DEFAULT 0,
+   merge INT DEFAULT 0,
+   PRIMARY KEY(number)
+);
+CREATE TABLE times2(
+   ip INT AUTO_INCREMENT NOT NULL,
+   number INT DEFAULT 0,
+   title VARCHAR(50),
+   title1 VARCHAR(100),
+   memo VARCHAR(100),
+   onemore INT DEFAULT 0,
+   merge INT DEFAULT 0,
+   PRIMARY KEY(number)
+);
+CREATE TABLE times3(
+   ip INT AUTO_INCREMENT NOT NULL,
+   number INT DEFAULT 0,
+   title VARCHAR(50),
+   title1 VARCHAR(100),
+   memo VARCHAR(100),
+   onemore INT DEFAULT 0,
+   merge INT DEFAULT 0,
+   PRIMARY KEY(number)
+);
+CREATE TABLE times4(
+   ip INT AUTO_INCREMENT NOT NULL,
+   number INT DEFAULT 0,
+   title VARCHAR(50),
+   title1 VARCHAR(100),
+   memo VARCHAR(100),
+   onemore INT DEFAULT 0,
+   merge INT DEFAULT 0,
+   PRIMARY KEY(number)
+);
+
+INSERT INTO times VALUES(1,1,'','','','','');
+INSERT INTO times VALUES(2,1,'','','','','');
+INSERT INTO times VALUES(3,1,'','','','','');
+INSERT INTO times VALUES(4,1,'','','','','');
+INSERT INTO times VALUES(5,1,'','','','','');
+INSERT INTO times VALUES(6,1,'','','','','');
+INSERT INTO times VALUES(7,1,'','','','','');
+...
+INSERT INTO times VALUES(105,1,'','','','','');
