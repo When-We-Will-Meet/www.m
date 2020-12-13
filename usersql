@@ -1,0 +1,9 @@
+/*터미널에서 데이터베이스 및 사용자를 추가하는 sql문입니다. 
+data.sql실행전에 보고 실행해주세요.*/
+use mysql;
+create database wwwm;
+use wwwm;
+create table times(name text);
+create user 'www'@'%' identified by '1234';
+grant all privileges on wwwm.* to 'www'@'%' with grant option;
+flush privileges;
